@@ -7,9 +7,9 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const jetbrains = JetBrains_Mono({ subsets: ["latin"], variable: "--font-jetbrains" });
 
 export const metadata: Metadata = {
-  title: 'DealCommand - Wholesaling OS',
+  title: 'Deal Command AI - Automated Wholesaling',
   description: 'The most automated wholesaling operating system. Market research, deal sourcing, seller qualification, and buyer disposition in one workflow.',
-  generator: 'v0.app',
+  generator: 'Developed by Caleb Klobe',
   icons: {
     icon: [
       {
