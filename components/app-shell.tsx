@@ -53,8 +53,8 @@ export function AppShell({ activePage, onNavigate, children }: AppShellProps) {
             <Crosshair className="w-4 h-4 text-primary-foreground" />
           </div>
           <div>
-            <h1 className="text-base font-bold text-foreground tracking-tight">DealCommand</h1>
-            <p className="text-xs text-muted-foreground">Wholesaling OS</p>
+            <h1 className="text-base font-bold text-foreground tracking-tight">Deal Command AI</h1>
+            <p className="text-xs text-muted-foreground">Automated Wholesaling</p>
           </div>
         </div>
         <nav className="flex-1 p-3 space-y-1 overflow-y-auto">
@@ -79,7 +79,7 @@ export function AppShell({ activePage, onNavigate, children }: AppShellProps) {
           })}
         </nav>
         <div className="p-4 border-t border-border">
-          <p className="text-xs text-muted-foreground">REI GameChangers</p>
+          <p className="text-xs text-muted-foreground">Deal Command AI</p>
         </div>
       </aside>
 
@@ -90,7 +90,7 @@ export function AppShell({ activePage, onNavigate, children }: AppShellProps) {
             <div className="flex items-center justify-center w-7 h-7 rounded-lg bg-primary">
               <Crosshair className="w-3.5 h-3.5 text-primary-foreground" />
             </div>
-            <span className="text-sm font-bold text-foreground">DealCommand</span>
+            <span className="text-sm font-bold text-foreground">Deal Command AI</span>
           </div>
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -109,7 +109,7 @@ export function AppShell({ activePage, onNavigate, children }: AppShellProps) {
                 <div className="flex items-center justify-center w-7 h-7 rounded-lg bg-primary">
                   <Crosshair className="w-3.5 h-3.5 text-primary-foreground" />
                 </div>
-                <span className="text-sm font-bold text-foreground">DealCommand</span>
+                <span className="text-sm font-bold text-foreground">Deal Command AI</span>
               </div>
               <button
                 onClick={() => setMobileMenuOpen(false)}
